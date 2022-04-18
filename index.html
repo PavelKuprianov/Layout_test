@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+
+  <script defer src="./js/modal.js"></script>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <section class="section">
+    <div class="container equipment">
+      <h2 class="equipment__title">Подбор оборудования</h2>
+      <ul class="equipment__list">
+
+        <li class="equipment__list_item flat">
+          <h3 class="equipment__list_item-title">Квартира</h3>
+          <button id="11" type="button" class="equipment__list_item-btn btn">
+            <span>Выбрать</span>
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L6 6L1 11" stroke="white" stroke-width="2" />
+            </svg>
+          </button>
+        </li>
+
+        <li class="equipment__list_item house">
+          <h3 class="equipment__list_item-title">Дом</h3>
+          <button id="12" type="button" class="equipment__list_item-btn btn">
+            <span>Выбрать</span>
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L6 6L1 11" stroke="white" stroke-width="2" />
+            </svg>
+          </button>
+        </li>
+
+        <li class="equipment__list_item business">
+          <h3 class="equipment__list_item-title">Бизнес</h3>
+          <button id="13" type="button" class="equipment__list_item-btn btn">
+            <span>Выбрать</span>
+            <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 1L6 6L1 11" stroke="white" stroke-width="2" />
+            </svg>
+          </button>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="modal hidden">
+      <div class="overlay"></div>
+      <div class="modal-wrapper">
+        <h3 class="section__title modal__title">
+          Давайте выбирать!
+        </h3>
+        <button type="button" class="modal__close" aria-label="закрыть модальное окно">
+        </button>
+      </div>
+    </div>
+
+  </section>
+</body>
+
+</html>
